@@ -31,13 +31,18 @@ $$
 x_{1,2} = \frac{-5 \pm \sqrt{5^2-12}}{6}
 $$
 
+# Another example
+$$
+K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
+$$
+
 # How to use MathJax with GitHub Pages, Jekyll and minima theme
 Note: This was done using Jekyll 4.2.2 and Minima 2.5.1, and the exact procedure be different for other releases.
 
-1. Add "markdown: kramdown" to _config.yml
+1. Add `markdown: kramdown` to _config.yml
 2. Add the following files in the _includes folder. As theme data is not stored in your websites folder in current releases of minima, the files added "locally" will overwrite them.
 
-_include/mathjax_support.html: 
+    _include/mathjax_support.html: 
 
         <script>
           MathJax = {
@@ -51,26 +56,27 @@ _include/mathjax_support.html:
         </script>
 
 
-Assuming you have installed minima on you local computer, find the location of your minima theme:<br>
-bundle info --path minima
+    Assuming you have installed minima on you local computer, find the location of your minima theme:<br>
+    *bundle info \--path minima*
 
-Find the head.html, and copy it to your site folder under _includes
-/home/user/gems/gems/minima-2.5.1/_includes/head.html
-Target: _includes/head.html
+    Find the head.html, example:  
+    /home/user/gems/gems/minima-2.5.1/_includes/head.html  
+    Copy it to your site folder under _includes  
 
-In the <head> section, add the following:
-        {% if page.use_math %}
-        {% include mathjax_support.html %}
-        {% endif %}
+    _includes/head.html:
 
-To enable MathJax in a post, enable it like this:
-use_math: true
+    In the `<head>` section, add the following:
+    ```
+    {% raw %}
+    {% if page.use_math %}  
+    {% include mathjax_support.html %}  
+    {% endif %}  
+    {% endraw %}
+    ```
+    To enable MathJax in a post, enable it like this:  
+    `use_math: true`
 
-
-# hva er dette
-asdf 
-
-# Test32
+# Another example
 $$
 K(a,b) = \int \mathcal{D}x(t) \exp(2\pi i S[x]/\hbar)
 $$
