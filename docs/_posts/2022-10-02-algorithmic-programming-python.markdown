@@ -10,9 +10,7 @@ Based on [Algorithmic and Advanced Programming in Python - Syllabus in Computer 
 Another [link](https://papers.ssrn.com/sol3/Data_Integrity_Notice.cfm?abid=3953589)
 
 
-# Example 1 
-When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
 
 
 [1]: https://papers.ssrn.com/sol3/Data_Integrity_Notice.cfm?abid=3953589
