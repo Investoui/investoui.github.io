@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "math"
-date:   2022-06-19 15:52:21 +0200
+date:   2022-10-02 11:52:21 +0200
 categories: jekyll update
 ---
 ## MathJax
