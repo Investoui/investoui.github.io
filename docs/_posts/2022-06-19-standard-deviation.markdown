@@ -2,6 +2,7 @@
 layout: post
 title:  "STD dev"
 date:   2022-06-19 15:52:21 +0200
+use_math: true
 categories: jekyll update
 ---
 
