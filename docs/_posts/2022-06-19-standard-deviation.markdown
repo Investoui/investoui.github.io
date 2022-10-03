@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "STD dev"
+title:  "Standard deviation"
 date:   2022-06-19 15:52:21 +0200
 use_math: true
 categories: jekyll update
@@ -17,9 +17,15 @@ $$
 To understand standard deviation, we need to understand variance
 > Variance is the average of the _squared_ differences from the mean. Squared because it weighs outliers more heavily than data close to the mean. It also prevents negative differences to cancel out positive value (although this could be solved by taking the absolute value of the differences).
 
+# Calculating the variance
 1. Calculate the _mean_ ($\mu$)  
+    $${\mu}={\frac{1}{N}}\sum_{i=1}^{N}x_{i}$$
 2. For each number, subtract the mean and square the difference
 3. Calculate the average of those squared differences
+
+$$ \sigma^{2}  = \frac{1}{N}\sum_{i=1}^{N}(x_{i} - \mu)^{2} $$
+
+
 
 Standard deviation is the square root of Variance: 
 
@@ -36,3 +42,5 @@ $$ \sigma  = \sqrt{ \frac{1}{N-1}\sum_{i=1}^{N}(x_{i} - \bar{x})^{2} } $$
 $${\bar{x}}={\frac{1}{N}}\sum_{i=1}^{N}x_{i}$$
 
 $\mu$ is calculated the same way as $\bar{x}$, but $\mu$ is the real mean assuming we have all the data, whereas $\bar{x}$ is our best guess given based on the samples available.
+
+[Source](https://www.mathsisfun.com/data/standard-deviation.html)

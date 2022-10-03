@@ -21,7 +21,7 @@
 title: investoui
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A personal blog sharing learnings and ideas in finance and data science
+  A personal blog sharing learnings and ideas in investments, finance and data science.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://investoui.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
