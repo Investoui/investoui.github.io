@@ -8,5 +8,7 @@ categories: jekyll update
 
 
 $$
-\begin{matrix}a & b % c \end{matrix}
+\begin{bmatrix}a & b &c \end{bmatrix}
 $$
+
+Test

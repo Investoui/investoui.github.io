@@ -31,7 +31,7 @@ github_username:  jekyll
 # Build settings
 #theme: minima
 remote_theme: jekyll/minima
-#  skin: dark
+  skin: dark
 #remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-feed
