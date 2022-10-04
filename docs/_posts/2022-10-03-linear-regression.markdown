@@ -6,9 +6,7 @@ use_math: true
 categories: jekyll update
 ---
 
-- [x] Write the press release
-- [ ] ~~Update the website~~
-- [ ] Contact the media, ==very important== .
+
 
 > __Linear regression__ aims to find the best fit straight line between input variable(s) and a output variable. It is a linear model, i.e. a model that assumes a linear relationship between the input variable(s) (x) and the output variable (y). It means y can be expressed as a linear expression of the variable(s) x. 
 
@@ -72,3 +70,25 @@ $x_j^{(i)}$ : $j^{th}$ feature of the $i^{th}$ training example
 # Feature scaling
 > Features must be on a similar scale when doing linear regression with gradient descent.
 
+$$ -1 \leq x_i \leq 1$$
+
+For example, apartment area will be on a different scale than number of rooms (e.g. $100m^2$ vs 3 rooms).
+
+Scaling is done with **mean normalization**.
+
+$$x_j^{(i)}=\frac{x_j^{(i)}- \mu_j}{s_j}$$
+
+$\mu_j$ : average value of $j^{th}$ feature set.  
+$s_j$  : the range (max-min) of $j^{th}$ feature in training set.  
+
+# Polynomial Regression
+A form of regression analysis where the relationship between input variable x and output variable y is modelled as a $n^{th}$ degree polynomial.
+
+The hypothesis function is still linear for polynomial regression, so even if the model is nonlinear, it is a linear problem in statistical sense. It is considered a special case of multiple linear regression.
+
+$$ h_{\theta}(x) =   \theta_0 + \theta_1 x_1 + \theta_2 x_2 + \theta_3 x_3 = \theta_0 + \theta_1(size) + \theta_2(size)^2 + \theta_3(size)^3 $$
+
+
+
+
+[Source](https://github.com/trekhleb/homemade-machine-learning/tree/master/homemade/linear_regression)
