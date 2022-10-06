@@ -6,3 +6,16 @@
 2. Surfex HD
 
 https://elbilforum.no/index.php?topic=42726.15
+
+Shoppinglist
+
+Jula - Hamron vaskehanske
+
+Rusta - prickbort
+
+Biltema - bøtter med smussavskiller
+
+fusso soft99
++applikator, mer?
+surfex HD
+Turtle bilshamp
