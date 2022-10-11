@@ -1,4 +1,10 @@
-
+---
+layout: post
+title:  "c¨Carwash KISS"
+date:   2022-10-06 20:26:21 +0200
+use_math: true
+categories: jekyll update
+---
 
 # Forvask
 
