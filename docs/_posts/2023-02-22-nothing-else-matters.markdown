@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Carwash KISS"
+title:  "Nothing Else Matters guitar tabs"
 date:   2023-02-22 18:22:00 +0200
 use_math: true
 categories: jekyll update
